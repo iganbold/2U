@@ -1,0 +1,5 @@
+imports:
+  - "@auto/code-review@latest/agents/pr-review.yaml"
+variables:
+  repoFullName: iganbold/2U
+  githubConnection: github-iganbold
