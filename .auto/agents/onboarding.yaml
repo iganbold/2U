@@ -1,0 +1,5 @@
+imports:
+  - "@auto/onboarding@latest/agents/onboarding.yaml"
+variables:
+  repoFullName: iganbold/2U
+  githubConnection: github-iganbold
