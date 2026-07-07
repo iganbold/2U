@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "2U",
-  "description": "This extension demonstrates Content Script CSS Isolation",
+  "description": "Analyzes a website's Terms of Use while you browse and rates it via the ToS;DR API.",
   "version": "1.0",
   "browser_action": {
     "default_icon": "icon.png",
