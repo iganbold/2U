@@ -16,13 +16,16 @@ var touLinks = [
   {"url": "http://www.delicious.com/terms", "rUrl": "delicious.json"},
   {"url": "https://kolabnow.com/privacy", "rUrl": "kolabnow.json"},
   {"url": "https://wikimediafoundation.org/wiki/Terms_of_Use", "rUrl": "wikipedia.json"},
-  {"url": "https://cloudant.com/terms/", "rUrl": "cloudant.json"}
+  {"url": "https://cloudant.com/terms/", "rUrl": "cloudant.json"},
+  {"url": "https://www.facebook.com/legal/terms", "rUrl": "facebook.json"},
+  {"url": "https://www.reddit.com/help/useragreement", "rUrl": "reddit.json"},
+  {"url": "https://www.instagram.com/about/legal/terms/", "rUrl": "instagram.json"}
 ];
 
 function checkUrl() {
   console.log(window.location.href);
   var count=0;
-  for(;count<7;count++) {
+  for(;count<touLinks.length;count++) {
     if(touLinks[count].url == window.location.href) {
       return touLinks[count].rUrl;
     }
